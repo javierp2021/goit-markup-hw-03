@@ -26,8 +26,7 @@
    --categoria-text: #757575;
    --button-color:#F5F4FA ;
    --button-color-h:#2196F3;
-
-    --foot-background:#2F303A;
+  --foot-background:#2F303A;
     
   }
   body{
@@ -37,10 +36,10 @@
     }
   
 /* page logo*/ 
-.logo {
-    margin-left: 100px;
+/* .logo {
+    margin-left: 70px;
     
-  }
+  } */
   .page-name-text {
     color: var(--page-name-text);
     font-family: "Raleway", sans-serif;
@@ -65,7 +64,7 @@
     background-color: var(--body-color);
     align-items: center;
     display: flex;
-    height: 70px;
+    height: 80px;
     justify-content: space-between;
     padding: 20px;
 }
@@ -75,17 +74,19 @@
     height: 70px;
     justify-content: space-between;
     list-style: none;
-    padding: 10px;
+    /* padding: 10px; */
   }
   
   /**/
   .nav-bar-info {
     align-items: center;
     display: flex;
+    margin-right: 50px;
     /* margin-block-end: 0px;
     margin-block-start: 0px;
     margin-inline-end: 0px; 
     margin-inline-start: 0px; */
+
   }
 
   .nav-bar-info a {
@@ -101,7 +102,7 @@
   }
   nav a {
     font-weight: 600;
-    padding-right: 100px;
+    padding-right: 70px;
   }
 nav a:hover,
 nav a:focus {
@@ -124,11 +125,11 @@ nav a:active {
 
   /*content -solutions*/
   .container{
-    max-width:1200px;
-    margin:0px auto;   
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .content {
@@ -170,8 +171,8 @@ nav a:active {
 
   .main-button:hover,
   .main-button:focus {
-    background-color: var(--blue);
-    color: white;
+    background-color: var(--button-color-h);
+    color: var(--white);
   }
     /*end content -solutions*/
 
@@ -431,7 +432,7 @@ min-width: 1200px;
         /* padding-left: 80px; */
       }
       .footer-page-name {
-        color: rgba(33, 150, 243, 1);
+        color: var(--page-name-text);
         font-family: "Raleway", sans-serif;
         font-size: 26px;
         font-style: normal;
@@ -462,6 +463,7 @@ min-width: 1200px;
       .footer-list p {
         margin: 0;
       }
+     
       .social-media-title {
         color: rgba(255, 255, 255, 1);
         font-family: "Roboto";
@@ -488,13 +490,13 @@ min-width: 1200px;
         text-align: center;
       }
       
-      .social-media-button:hover,
-      .social-media-button:focus {
-        background-color: rgba(33, 150, 243, 1);
+      .social-media-button li:hover ,
+      .social-media-button  li:focus {
+        color: var(--page-name-text);
       }
       
-      .social-media-button:active {
-        background-color: rgba(33, 150, 243, 1);
+      .social-media-button:active li {
+      color: rgba(33, 150, 243, 1);
       }
       
       .social-media-button img {
@@ -504,7 +506,7 @@ min-width: 1200px;
       .footer-social-media ul {
         list-style: none;
         display: flex;
-        flex-direction: row;
+        /* flex-direction: row; */
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -513,7 +515,19 @@ min-width: 1200px;
       .footer-social-media ul li {
         margin-right: 10px;
       }
-      
+      .footer-list li:hover,
+      .footer-list li:focus {
+        color: var(--page-name-text);
+        }
+      .color {
+        color: rgba(255, 255, 255, 0.6);
+       
+      }
+        .color:hover,
+        .color:focus{
+          color: var(--page-name-text);
+        }
+       
       /*****/
       .logo {
         display: flex;
